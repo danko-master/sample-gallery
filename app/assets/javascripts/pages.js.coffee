@@ -5,7 +5,7 @@ $(window).load ->
   $('#slider').nivoSlider({
     effect:"fade",
     animSpeed:300,
-    pauseTime:15000,
+    pauseTime:15000000,
     startSlide:0,
     directionNav:true,
     controlNav:true,
@@ -15,3 +15,4 @@ $(window).load ->
     keyboardNav: true,
     controlNav: true
     })
+  
