@@ -1,5 +1,9 @@
 SampleGallery::Application.routes.draw do
-  resources :pages
+  resources :pages do
+      collection { get :get_images }
+  end
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
